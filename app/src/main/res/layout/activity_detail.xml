@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/imageID"
+        android:layout_width="189dp"
+        android:layout_height="153dp"
+        android:layout_weight="1"
+        android:paddingTop="14dp"
+        app:srcCompat="@drawable/chiken" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="4"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/textID1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spicy Chicken Pizza"
+            android:textColor="#FFFF00"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textID2"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:text="Fire up your taste buds with this fiery and flavorful pizza. The zesty tomato sauce, gooey cheese, and tender chicken are topped with a generous sprinkle of fiery spices that will make your mouth sing. With each cheesy, spicy bite, you'll be transported to flavor town, where every slice is a slice of pure pizza paradise!"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+
+        <TextView
+            android:id="@+id/textID3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RS 310.00"
+            android:textColor="#FF0000"
+            android:textSize="20sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
